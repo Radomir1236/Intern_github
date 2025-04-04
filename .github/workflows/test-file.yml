@@ -18,3 +18,11 @@ jobs:
 
       - name: Run a command
         run: echo "Hello, World!"  # Выполняет команду и выводит сообщение
+
+  pwd:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: pwd and ll
+        run: pwd | ll
+  
